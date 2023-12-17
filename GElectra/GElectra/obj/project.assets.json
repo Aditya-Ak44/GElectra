@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adityakothari/Projects/GElectra/GElectra/GElectra.csproj",
+      "projectUniqueName": "/Users/adityakothari/Projects/GElectra/GElectra/GElectra/GElectra.csproj",
       "projectName": "GElectra",
-      "projectPath": "/Users/adityakothari/Projects/GElectra/GElectra/GElectra.csproj",
+      "projectPath": "/Users/adityakothari/Projects/GElectra/GElectra/GElectra/GElectra.csproj",
       "packagesPath": "/Users/adityakothari/.nuget/packages/",
-      "outputPath": "/Users/adityakothari/Projects/GElectra/GElectra/obj/",
+      "outputPath": "/Users/adityakothari/Projects/GElectra/GElectra/GElectra/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/adityakothari/.nuget/NuGet/NuGet.Config"
