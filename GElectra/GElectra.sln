@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GElectra", "GElectra\GElectra.csproj", "{BD9BC284-3C35-47BE-AAAA-596E55636A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9BC284-3C35-47BE-AAAA-596E55636A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9BC284-3C35-47BE-AAAA-596E55636A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9BC284-3C35-47BE-AAAA-596E55636A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9BC284-3C35-47BE-AAAA-596E55636A11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57460BA2-2051-47FE-B00B-08FA44D6DDF8}
+	EndGlobalSection
+EndGlobal
