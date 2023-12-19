@@ -6,4 +6,22 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Customer\" />
+    <None Remove="Views\Admin\" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Models\Admin\" />
+    <None Remove="Models\Customer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Customer\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Models\Admin\" />
+    <Folder Include="Models\Customer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
 </Project>
