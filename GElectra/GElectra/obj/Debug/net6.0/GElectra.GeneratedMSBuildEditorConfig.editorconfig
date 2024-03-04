@@ -10,18 +10,40 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GElectra
 build_property.RootNamespace = GElectra
 build_property.ProjectDir = /Users/adityakothari/Projects/GElectra/GElectra/GElectra/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/adityakothari/Projects/GElectra/GElectra/GElectra
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Admin/AdminDashBoard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5EYXNoQm9hcmQuY3NodG1s
+[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Customer/CustomerDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3VzdG9tZXJEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Customer/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Home/Index.cshtml]
@@ -30,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/adityakothari/Projects/GElectra/GElectra/GElectra/Views/Shared/_ValidationScriptsPartial.cshtml]

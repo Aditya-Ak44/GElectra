@@ -11,17 +11,46 @@
     <None Remove="Views\Admin\" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Swashbuckle.AspNetCore" />
-    <None Remove="Models\Admin\" />
-    <None Remove="Models\Customer\" />
+    <None Remove="Data\" />
+    <None Remove="Models\**" />
+    <None Remove="Views\Admin\**" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Customer\" />
-    <Folder Include="Views\Admin\" />
-    <Folder Include="Models\Admin\" />
-    <Folder Include="Models\Customer\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.23">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.23" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\**" />
+    <Compile Remove="Controllers\AdminController.cs" />
+    <Compile Remove="Data\AdminService.cs" />
+    <Compile Remove="Data\ApplicationDbContext.cs" />
+    <Compile Remove="Views\Admin\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Views\Admin\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Models\**" />
+    <Content Remove="Views\Admin\**" />
+    <Content Remove="Views\Shared\Error.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Admin\AdminDashBoard.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Admin\displayCustomer.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Customer\CustomerDashboard.cshtml" />
   </ItemGroup>
 </Project>
